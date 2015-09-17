@@ -80,6 +80,14 @@ svg {
 	text-align: left;
 }
 
+
+.owl-dots {
+	position: fixed;
+	top: 350px;
+	left: 50%;
+}
+	
+
 .btn {
 	color: white;
 	background-color: #85b03d;
@@ -99,7 +107,8 @@ svg {
 
 .btn-sm{
 	font-size: 1.0em;
-	width: 150px;
+	width: 30%;
+	max-width: 150px;
 	height: 40px;
 }
 
@@ -137,6 +146,11 @@ a:link, a:visited, a:active, a:hover {
 */
 
 @media screen and (max-width: 650px) {
+	.owl-dots {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+	}
 	.s-slide {
 		height: inherit;
 	}
